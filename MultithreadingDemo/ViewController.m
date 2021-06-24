@@ -9,6 +9,7 @@
 #import "SellTicketsViewController.h"
 #import "GCDViewController.h"
 #import "NSThreadViewController.h"
+#import "NSOperationViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -59,10 +60,21 @@
             [self.navigationController pushViewController:controller animated:true];
         }
             break;
-            
-        default: {
+        case 1:{
             GCDViewController *controller = [GCDViewController new];
             [self.navigationController pushViewController:controller animated:true];
+        }
+            
+            break;
+        case 2:{
+            NSOperationViewController *controller = [NSOperationViewController new];
+            [self.navigationController pushViewController:controller animated:true];
+        }
+            
+            break;
+            
+        default: {
+            
         }
             break;
     }

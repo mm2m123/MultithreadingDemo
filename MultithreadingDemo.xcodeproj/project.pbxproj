@@ -16,6 +16,8 @@
 		8D2714802672513D00EBA10A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27147F2672513D00EBA10A /* main.m */; };
 		8D27148926725C2600EBA10A /* SellTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27148726725C2600EBA10A /* SellTicketsViewController.m */; };
 		8D27148A26725C2600EBA10A /* SellTicketsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D27148826725C2600EBA10A /* SellTicketsViewController.xib */; };
+		8D59FC1526848E4A00BCD462 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D59FC1326848E4A00BCD462 /* NSOperationViewController.m */; };
+		8D59FC1626848E4A00BCD462 /* NSOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D59FC1426848E4A00BCD462 /* NSOperationViewController.xib */; };
 		8D846E1D2680578200360943 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D846E1B2680578200360943 /* GCDViewController.m */; };
 		8D846E1E2680578200360943 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D846E1C2680578200360943 /* GCDViewController.xib */; };
 		8D846E232681BC7100360943 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D846E212681BC7100360943 /* NSThreadViewController.m */; };
@@ -38,6 +40,9 @@
 		8D27148626725C2600EBA10A /* SellTicketsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SellTicketsViewController.h; sourceTree = "<group>"; };
 		8D27148726725C2600EBA10A /* SellTicketsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SellTicketsViewController.m; sourceTree = "<group>"; };
 		8D27148826725C2600EBA10A /* SellTicketsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellTicketsViewController.xib; sourceTree = "<group>"; };
+		8D59FC1226848E4A00BCD462 /* NSOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		8D59FC1326848E4A00BCD462 /* NSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		8D59FC1426848E4A00BCD462 /* NSOperationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSOperationViewController.xib; sourceTree = "<group>"; };
 		8D846E1A2680578200360943 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		8D846E1B2680578200360943 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		8D846E1C2680578200360943 /* GCDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
@@ -84,6 +89,7 @@
 				8D2714742672513B00EBA10A /* ViewController.m */,
 				8D846E1F2681BC4D00360943 /* NSThread */,
 				8D846E192680576A00360943 /* GCD */,
+				8D59FC1126848E2C00BCD462 /* NSOperation */,
 				8D27148626725C2600EBA10A /* SellTicketsViewController.h */,
 				8D27148726725C2600EBA10A /* SellTicketsViewController.m */,
 				8D27148826725C2600EBA10A /* SellTicketsViewController.xib */,
@@ -94,6 +100,16 @@
 				8D27147F2672513D00EBA10A /* main.m */,
 			);
 			path = MultithreadingDemo;
+			sourceTree = "<group>";
+		};
+		8D59FC1126848E2C00BCD462 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				8D59FC1226848E4A00BCD462 /* NSOperationViewController.h */,
+				8D59FC1326848E4A00BCD462 /* NSOperationViewController.m */,
+				8D59FC1426848E4A00BCD462 /* NSOperationViewController.xib */,
+			);
+			path = NSOperation;
 			sourceTree = "<group>";
 		};
 		8D846E192680576A00360943 /* GCD */ = {
@@ -176,6 +192,7 @@
 				8D846E242681BC7100360943 /* NSThreadViewController.xib in Resources */,
 				8D27147D2672513D00EBA10A /* LaunchScreen.storyboard in Resources */,
 				8D27147A2672513D00EBA10A /* Assets.xcassets in Resources */,
+				8D59FC1626848E4A00BCD462 /* NSOperationViewController.xib in Resources */,
 				8D2714782672513B00EBA10A /* Main.storyboard in Resources */,
 				8D846E1E2680578200360943 /* GCDViewController.xib in Resources */,
 			);
@@ -195,6 +212,7 @@
 				8D846E232681BC7100360943 /* NSThreadViewController.m in Sources */,
 				8D2714722672513B00EBA10A /* SceneDelegate.m in Sources */,
 				8D27148926725C2600EBA10A /* SellTicketsViewController.m in Sources */,
+				8D59FC1526848E4A00BCD462 /* NSOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
